@@ -15,7 +15,19 @@ namespace LinkedinLearningCSharp
           Console.WriteLine("Your Name : {0}",a);
           Console.WriteLine("Your Age :{0}",b);
           Console.WriteLine("You were born in the month : {0}",c);
-          Console.ReadKey();
+          if(c=="march")
+            {
+                Console.WriteLine("You are an Aries");
+            }
+          else  if (c == "april")
+            {
+                Console.WriteLine("You are a Taurus");
+            }
+          else  if (c == "July")
+            {
+                Console.WriteLine("You are an Orion");
+            }
+            Console.ReadKey();
 
 
         }
