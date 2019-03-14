@@ -6,26 +6,13 @@ namespace LinkedinLearningCSharp
     {
         static void Main(string[] args)
         {
-            var passcode="";
-            int nooftries=0;
-          while(passcode!="secret" && nooftries<3)
-          { 
-           Console.WriteLine("Enter the Passcode");
-           passcode=  Console.ReadLine();
-            if(passcode!="secret")
-                { 
-                Console.WriteLine("please retry and enter the correct passcode");
-                nooftries++;
-                }
-          }
-
-          if(nooftries==3)
+            var count = 0;
+            while(count<10)
             {
-                Console.WriteLine("You have exceeded the {0} attempts",nooftries);
+                Console.WriteLine(count);
+                count++;
             }
-          
-                Console.WriteLine("Your are successfully authenticated");
-
         }
-    }
+
+    }    
 }
