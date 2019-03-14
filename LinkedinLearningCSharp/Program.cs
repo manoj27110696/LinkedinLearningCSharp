@@ -6,11 +6,9 @@ namespace LinkedinLearningCSharp
     {
         static void Main(string[] args)
         {
-            var count = 0;
-            while(count<10)
+            for(int count=1;count<=10;count++)
             {
                 Console.WriteLine(count);
-                count++;
             }
         }
 
