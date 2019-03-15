@@ -6,20 +6,43 @@ namespace LinkedinLearningCSharp
     {
         static void Main(string[] args)
         {
-            for (int repeat = 1; repeat <= 5; repeat++)
+            Console.WriteLine("What is your name ?");
+            String a = Console.ReadLine();
+            if (a=="")
             {
-                for (int count = 1; count <= 10; count++)
-                {
-                    Console.WriteLine(count);
-                }
-                for (int count = 10; count >= 1; count--)
-                {
-                    Console.WriteLine(count);
-                }
-
+                Console.WriteLine("You didnt type anything,please try again");
+                a=Console.ReadLine();
             }
+            Console.WriteLine("How old are you ?");
+            String b = Console.ReadLine();
+            {
+                Console.WriteLine("You didnt type anything,please try again");
+                b = Console.ReadLine();
+            }
+            Console.WriteLine("What month were you born in");
+            String c = Console.ReadLine();
+            {
+                Console.WriteLine("You didnt type anything,please try again");
+                c = Console.ReadLine();
+            }
+            Console.WriteLine("Your Name : {0}", a);
+            Console.WriteLine("Your Age :{0}", b);
+            Console.WriteLine("You were born in the month : {0}", c);
+            if (c == "march")
+            {
+                Console.WriteLine("You are an Aries");
+            }
+            else if (c == "april")
+            {
+                Console.WriteLine("You are a Taurus");
+            }
+            else if (c == "July")
+            {
+                Console.WriteLine("You are an Orion");
+            }
+            Console.ReadKey();
+
 
         }
-
-    }    
+    }
 }
