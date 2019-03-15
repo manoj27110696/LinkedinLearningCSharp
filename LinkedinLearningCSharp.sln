@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedinLearningCSharp", "LinkedinLearningCSharp\LinkedinLearningCSharp.csproj", "{B627C3F6-082E-4676-B7F8-86E87DD4C594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedinLearningCSharp", "LinkedinLearningCSharp\LinkedinLearningCSharp.csproj", "{B627C3F6-082E-4676-B7F8-86E87DD4C594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTracker", "SchoolTracker\SchoolTracker.csproj", "{8865C56A-C315-4AC4-A7B4-2006E69DE2B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B627C3F6-082E-4676-B7F8-86E87DD4C594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B627C3F6-082E-4676-B7F8-86E87DD4C594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B627C3F6-082E-4676-B7F8-86E87DD4C594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8865C56A-C315-4AC4-A7B4-2006E69DE2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8865C56A-C315-4AC4-A7B4-2006E69DE2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8865C56A-C315-4AC4-A7B4-2006E69DE2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8865C56A-C315-4AC4-A7B4-2006E69DE2B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
